@@ -3,7 +3,7 @@
 ▀▀▀▄▄▄ ██  ██ ██     ▄▄▄ ██  ██ ██▄▄   ██▄▄██ ██  ██ ██ ▀▀ ██ ██▄▄██ ██ ▀▄██ 
 █████▀ ▀████▀ ▀█████     ████▀  ██▄▄▄▄ ██  ██ ████▀  ██    ██ ██  ██ ██   ██ 
 ```                                                                             
-                                                                                                                             
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)                                                                                                                        
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-Backend-black?style=for-the-badge&logo=flask)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
