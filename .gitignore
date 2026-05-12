@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+
+# Logs
+logs/
+*.log
+
+# Screenshots / evidence
+forensic_screenshots/
+
+# VS Code
+.vscode/
+
+# Database
+*.db
+
+# Node
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store

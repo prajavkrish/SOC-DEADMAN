@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOC Deadman Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="container mt-4">
+
+    <h1 class="mb-4">SOC Deadman Dashboard</h1>
+
+    <table class="table table-dark table-bordered">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Event</th>
+                <th>Confidence</th>
+                <th>Screenshot</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        {% for e in events %}
+
+        <tr>
+            <td>{{ e.id }}</td>
+            <td>{{ e.event_type }}</td>
+            <td>{{ e.confidence }}</td>
+
+            <td>
+                <a href="{{ e.screenshot }}" target="_blank">
+                    Open
+                </a>
+            </td>
+
+            <td>{{ e.timestamp }}</td>
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
+
+</div>
+
+</body>
+</html>
